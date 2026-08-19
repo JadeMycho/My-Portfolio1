@@ -1,7 +1,7 @@
 export function ProfileSection() {
   const profile = {
-    name: "Jade Mycho Quiroy",
-    email: "jademycho@gmail.com",
+    name: "Harvey Lester Baguio",
+    email: "bajeharvey@gmail.com",
   };
 
   return (
@@ -13,7 +13,7 @@ export function ProfileSection() {
             {profile.name}
           </span>{" "}
           -{" "}
-          <span className="text-emerald-400">
+          <span className="text-gray-400">
             {profile.email}
           </span>
         </p>
